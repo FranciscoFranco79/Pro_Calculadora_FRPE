@@ -8,12 +8,18 @@
  * @author ceti
  */
 public class calculadora_FRPE {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+    public static int Suma(int a, int b){
+        return a+b;
     }
     
+    public static int Resta(int a, int b){
+        return a-b;
+    }
+    
+    public static void main(String args[])
+    {
+        System.out.println("La suma es: "+Suma(5,5));
+        System.out.println("La resta es: "+Resta(5,5));
+    }
 }
