@@ -9,12 +9,18 @@
  */
 public class calculadora_FRPE {
     
+
+    public static int porcentaje (int a, int b){
+        return a%b;
+    }
+
     public static int Suma(int a, int b){
         return a+b;
      
     }
         public static int Resta(int a, int b){
         return a-b;
+
     }
 
     public static int Multiplicacion(int a, int b) {
@@ -29,10 +35,6 @@ public class calculadora_FRPE {
         
         return c+b+a;
     }
-
-    /**f
-     * @param args the command line arguments
-     */
     
     public static void main(String args[])
     {
@@ -41,7 +43,7 @@ public class calculadora_FRPE {
         System.out.println("La multiplicacion es: "+ Multiplicacion(2,4));
         System.out.println("La division es: "+ Division(2,4));
         
-        
+        System.out.println("El porcentaje es: " + porcentaje(10,100));
         System.out.println("La suma total es: " + Suma_modificada(3,4,5));
     }
    

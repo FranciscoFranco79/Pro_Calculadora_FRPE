@@ -14,9 +14,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author ceti
  */
-public class calculadora_FRPETest {
+public class calculadora_FRPEIT {
     
-    public calculadora_FRPETest() {
+    public calculadora_FRPEIT() {
     }
     
     @BeforeAll
@@ -41,12 +41,13 @@ public class calculadora_FRPETest {
     @Test
     public void testSuma() {
         System.out.println("Suma");
-        int a = 5;
-        int b = 5;
-        int expResult = 10;
+        int a = 0;
+        int b = 0;
+        int expResult = 0;
         int result = calculadora_FRPE.Suma(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+        
     }
 
     /**
@@ -55,12 +56,13 @@ public class calculadora_FRPETest {
     @Test
     public void testResta() {
         System.out.println("Resta");
-        int a = 5;
-        int b = 5;
+        int a = 0;
+        int b = 0;
         int expResult = 0;
         int result = calculadora_FRPE.Resta(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+        
     }
 
     /**
@@ -69,12 +71,13 @@ public class calculadora_FRPETest {
     @Test
     public void testMultiplicacion() {
         System.out.println("Multiplicacion");
-        int a = 2;
-        int b = 4;
-        int expResult = 8;
+        int a = 0;
+        int b = 0;
+        int expResult = 0;
         int result = calculadora_FRPE.Multiplicacion(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+      
     }
 
     /**
@@ -89,6 +92,7 @@ public class calculadora_FRPETest {
         int result = calculadora_FRPE.Division(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+   
     }
 
     /**
@@ -97,13 +101,14 @@ public class calculadora_FRPETest {
     @Test
     public void testSuma_modificada() {
         System.out.println("Suma_modificada");
-        int a = 3;
-        int b = 4;
-        int c = 5;
-        int expResult = 12;
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        int expResult = 0;
         int result = calculadora_FRPE.Suma_modificada(a, b, c);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+       
     }
 
     /**
@@ -115,7 +120,7 @@ public class calculadora_FRPETest {
         String[] args = null;
         calculadora_FRPE.main(args);
         // TODO review the generated test code and remove the default call to fail.
-        
+       
     }
     
 }

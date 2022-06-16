@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="calculadora_FRPETest" time="0.076" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="calculadora_FRPEIT" time="0.364" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
@@ -13,7 +13,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="calculadora_FRPETest"/>
+    <property name="test" value="calculadora_FRPEIT"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/ceti/NetBeansProjects/Pro_Calculadora_FRPE"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="/snap/netbeans/58/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=calculadora_FRPETest -Dmaven.ext.class.path=/snap/netbeans/58/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=calculadora_FRPEIT -Dmaven.ext.class.path=/snap/netbeans/58/netbeans/java/maven-nblib/netbeans-eventspy.jar process-test-classes surefire:test"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testSuma" time="0.013"/>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testResta" time="0.003"/>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testMultiplicacion" time="0.002"/>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testDivision" time="0.001"/>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testSuma_modificada" time="0"/>
-  <testcase classname="calculadora_FRPETest" name="calculadora_FRPETest.testMain" time="0.057"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testSuma" time="0.11"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testResta" time="0.003"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testMultiplicacion" time="0"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testDivision" time="0.003"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testSuma_modificada" time="0"/>
+  <testcase classname="calculadora_FRPEIT" name="calculadora_FRPEIT.testMain" time="0.248"/>
 </testsuite>
