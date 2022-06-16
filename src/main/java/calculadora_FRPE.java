@@ -20,8 +20,7 @@ public class calculadora_FRPE {
     }
         public static int Resta(int a, int b){
         return a-b;
-            
-            viva franco
+    
 
     }
 
